@@ -2,9 +2,9 @@
 
 from locust import task, Locust, TaskSet
 import thriftpy
-from lantern.settings import ROOT_PATH
-from lantern.utils import control_throughput, gen_loop_csv_reader
-from lantern.client import RpcClient
+from locust_thrift.settings import ROOT_PATH
+from locust_thrift.utils import gen_loop_csv_reader
+from locust_thrift.client import RpcClient
 import os
 
 

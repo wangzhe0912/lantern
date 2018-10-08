@@ -1,4 +1,2 @@
-pyzmq==15.2.0
-locustio==0.7.3
+locustio==0.8.1
 thriftpy==0.3.8
-

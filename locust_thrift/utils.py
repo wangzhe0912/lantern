@@ -3,7 +3,7 @@
 import csv
 import os
 import json
-from lantern import settings
+from locust_thrift import settings
 import time
 import functools
 
